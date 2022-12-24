@@ -1,0 +1,20 @@
+@import url('navbar.css');
+@import url('home-banner.css');
+@import url('form.css');
+@import url('options.css');
+@import url('passwords.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.gray-color{
+    color: #999;
+}

@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 1px 2px 4px rgba(51, 51, 51, 0.192);
+}
+
+.navbar img{
+    border-radius: 100%;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.navbar-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar button{
+    padding: 10px 15px;
+    border: none;
+    background-color: dodgerblue;
+    color: #fff;
+    border-radius: 5px;
+}

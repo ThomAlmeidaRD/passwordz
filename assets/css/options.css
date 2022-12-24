@@ -1,0 +1,38 @@
+.options-container {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.445);
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.options-content {
+    background-color: #fff;
+    height: 100vh;
+    margin-top: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px;
+}
+
+label {
+    font-size: 1.1rem;
+}
+
+input {
+    width: 100%;
+    padding: 2px;
+    font-size: 1.2em;
+    margin: 10px 0px;
+}
+
+.options-content button {
+    padding: 12px;
+    width: 100%;
+    border: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+    margin-top: 20px;
+}
